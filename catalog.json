@@ -1,0 +1,116 @@
+{
+    
+    "charts": {},
+    "test": {},
+    "stable": {
+        "onlyoffice-document-server": {
+            "app_readme": "<p>ONLYOFFICE Document Server is an online office suite comprising viewers and editors for texts, spreadsheets and presentations, fully compatible with Office Open XML formats: .docx, .xlsx, .pptx and enabling collaborative editing in real time.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/onlyoffice-document-server\">https://truecharts.org/charts/stable/onlyoffice-document-server</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "office"
+            ],
+            "description": "ONLYOFFICE Document Server is an online office suite comprising viewers and editors for texts, spreadsheets and presentations, fully compatible with Office Open XML formats: .docx, .xlsx, .pptx and enabling collaborative editing in real time.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/stable/onlyoffice-document-server",
+            "location": "/home/runner/_work/catalog/catalog/charts/stable/onlyoffice-document-server",
+            "latest_version": "18.1.4",
+            "latest_app_version": "8.0.1",
+            "latest_human_version": "8.0.1_18.1.4",
+            "last_update": "2024-05-29 12:35:14",
+            "name": "onlyoffice-document-server",
+            "recommended": false,
+            "title": "Onlyoffice-document-server",
+            "maintainers": [
+                {
+                    "name": "TrueCharts",
+                    "email": "info@truecharts.org",
+                    "url": "https://truecharts.org"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://github.com/ONLYOFFICE/Docker-DocumentServer",
+                "https://github.com/ONLYOFFICE/DocumentServer",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/onlyoffice-document-server",
+                "https://hub.docker.com/r/onlyoffice/documentserver"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/onlyoffice-document-server.webp"
+        }
+    },
+    "premium": {
+        "nextcloud": {
+            "app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/premium/nextcloud\">https://truecharts.org/charts/premium/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "cloud"
+            ],
+            "description": "A private cloud server that puts the control and security of your own data back into your hands.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/premium/nextcloud",
+            "location": "/home/runner/_work/catalog/catalog/charts/premium/nextcloud",
+            "latest_version": "30.4.0",
+            "latest_app_version": "30.0.0",
+            "latest_human_version": "30.0.0_30.4.0",
+            "last_update": "2024-09-20 12:45:00",
+            "name": "nextcloud",
+            "recommended": false,
+            "title": "Nextcloud",
+            "maintainers": [
+                {
+                    "name": "TrueCharts",
+                    "email": "info@truecharts.org",
+                    "url": "https://truecharts.org"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://github.com/nextcloud/docker",
+                "https://github.com/nextcloud/helm",
+                "https://github.com/truecharts/charts/tree/master/charts/premium/nextcloud",
+                "https://github.com/truecharts/containers/tree/master/apps/nextcloud-fpm",
+                "https://github.com/truecharts/containers/tree/master/apps/nextcloud-imaginary",
+                "https://github.com/truecharts/containers/tree/master/apps/nextcloud-push-notify",
+                "https://hub.docker.com/r/clamav/clamav",
+                "https://hub.docker.com/r/collabora/code",
+                "https://hub.docker.com/r/nginxinc/nginx-unprivileged"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.webp"
+        },
+        "vaultwarden": {
+            "app_readme": "<p>Unofficial Bitwarden compatible server written in Rust</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/premium/vaultwarden\">https://truecharts.org/charts/premium/vaultwarden</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "security"
+            ],
+            "description": "Unofficial Bitwarden compatible server written in Rust",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/premium/vaultwarden",
+            "location": "/home/runner/_work/catalog/catalog/premium/vaultwarden",
+            "latest_version": "27.1.2",
+            "latest_app_version": "1.30.5",
+            "latest_human_version": "1.30.5_27.1.2",
+            "last_update": "2024-05-29 12:35:14",
+            "name": "vaultwarden",
+            "recommended": false,
+            "title": "Vaultwarden",
+            "maintainers": [
+                {
+                    "name": "TrueCharts",
+                    "email": "info@truecharts.org",
+                    "url": "https://truecharts.org"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://ghcr.io/timshel/vaultwarden",
+                "https://github.com/dani-garcia/vaultwarden",
+                "https://github.com/truecharts/charts/tree/master/charts/premium/vaultwarden",
+                "https://hub.docker.com/r/vaultwarden/server"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.webp"
+        }
+    }
+}
